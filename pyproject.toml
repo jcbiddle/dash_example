@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dash-example"
+version = "0.1.0"
+description = ""
+authors = ["James Biddle <james.biddle@defence.gov.au>"]
+readme = "README.md"
+packages = [{ include = "part1" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dash = "^2.11.1"
+dash-bootstrap-components = "^1.4.1"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
